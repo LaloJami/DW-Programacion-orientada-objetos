@@ -221,3 +221,38 @@ UML diagram, modelo simplificado del sistema uber
 Los **objetos** nos ayudan a crear instancia de una clase, el objeto es el resultado de lo que modelamos, de los parámetros declarados y usaremos los objetos para que nuestras clases cobren vida.
 
 Los **métodos constructores** dan un estado inicial al objeto y podemos añadirle algunos datos al objeto mediante estos métodos. Los atributos o elementos que pasemos a través del constructor serán los datos mínimos que necesita el objeto para que pueda vivir.
+
+El **Encapsulamiento** es hacer que un dato sea inviolable, inalterable cuando se le asigne un modificador de acceso.
+Un modificador de acceso define el alcance y visibilidad de un miembro de clase.
+La encapsulacion es también llamada ocultamiento de información.
+
+Algunos beneficios de encapsulación son:
+
+* Controlar la manera en que los datos son accedidos o modificados
+* El código es mas flexible y fácil de cambiar a partir de nuevos requerimientos
+* Poder modificar una parte del código sin afectar otras partes del mismo
+* Ayuda a mantener la integridad de los datos
+
+Modificadores de acceso:
+
+- Public: Todas las Clases.
+- Protected: En la misma Clase, paquetes, subclases.
+- Default: En la misma Clase y paquetes internos.
+- Private: Solo en la misma Clase
+
+**Polimorfismo**: Muchas formas. Poli = muchas, morfismo = formas. NO es Poliformismo
+
+Es construir métodos con el mismo nombre pero con comportamiento diferente
+
+* **clase**: Es un molde para crear objetos (para crear una clase analizamos un objeto)
+* **objeto**: Es la instancia de una clase (es el resultado de lo que modelamos)
+* **método**: Un grupo de declaraciones que realizan una tarea particular
+
+* **¿Qué es el encapsulamiento?**
+Es hacer un dato inviolable, inalterable cuando se le asigne un modificador de acceso, (no se trata solo de ocultar el dato sino también para protegerlo). Un modificador de acceso define el alcance y visibilidad de un miembro de clase.
+* **¿Qué es abstracción?**
+Practica de aislar un elemento de su contexto o del resto de los elementos que lo acompañan consiguiendo de ese modo, reducir ese elemento a sus características más esenciales.
+* **¿Qué es la herencia?**
+Nos sirve para crear nuevas clases a partir de otras y gracias a ello evitamos la duplicación de código: lo que permite el cambio y la evolución adecuada en nuestro código.
+* **¿Qué es el polimorfismo?**
+Es construir métodos con el mismo nombre pero con un comportamiento diferente.
